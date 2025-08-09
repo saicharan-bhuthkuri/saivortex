@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: hsl(0, 0%, 100%);
+  --foreground: hsl(222, 14%, 10%);
+  --card: hsl(0, 0%, 100%);
+  --card-foreground: hsl(222, 14%, 10%);
+  --popover: hsl(0, 0%, 100%);
+  --popover-foreground: hsl(222, 14%, 10%);
+  --primary: hsl(217, 78%, 55%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(210, 25%, 7.8431%);
+  --secondary-foreground: hsl(0, 0%, 100%);
+  --muted: hsl(210, 40%, 98%);
+  --muted-foreground: hsl(215, 16%, 46%);
+  --accent: hsl(210, 40%, 98%);
+  --accent-foreground: hsl(222, 14%, 10%);
+  --destructive: hsl(0, 84%, 60%);
+  --destructive-foreground: hsl(0, 0%, 100%);
+  --border: hsl(214, 32%, 91%);
+  --input: hsl(214, 32%, 91%);
+  --ring: hsl(217, 78%, 55%);
+  --radius: 0.5rem;
+  --brand-blue: hsl(217, 78%, 55%);
+  --brand-purple: hsl(258, 68%, 58%);
+  --brand-dark: hsl(243, 51%, 21%);
+  --brand-accent: hsl(273, 78%, 66%);
+  --font-poppins: 'Poppins', sans-serif;
+}
+
+.dark {
+  --background: hsl(222, 14%, 10%);
+  --foreground: hsl(210, 40%, 98%);
+  --card: hsl(222, 14%, 10%);
+  --card-foreground: hsl(210, 40%, 98%);
+  --popover: hsl(222, 14%, 10%);
+  --popover-foreground: hsl(210, 40%, 98%);
+  --primary: hsl(217, 78%, 55%);
+  --primary-foreground: hsl(0, 0%, 100%);
+  --secondary: hsl(217, 32%, 17%);
+  --secondary-foreground: hsl(210, 40%, 98%);
+  --muted: hsl(217, 32%, 17%);
+  --muted-foreground: hsl(215, 20%, 65%);
+  --accent: hsl(217, 32%, 17%);
+  --accent-foreground: hsl(210, 40%, 98%);
+  --destructive: hsl(0, 62%, 30%);
+  --destructive-foreground: hsl(210, 40%, 98%);
+  --border: hsl(217, 32%, 17%);
+  --input: hsl(217, 32%, 17%);
+  --ring: hsl(217, 78%, 55%);
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-poppins);
+  }
+}
+
+@layer utilities {
+  .brand-gradient {
+    background: linear-gradient(135deg, hsl(217, 78%, 55%) 0%, hsl(258, 68%, 58%) 50%, hsl(243, 51%, 21%) 100%);
+  }
+  
+  .hero-pattern {
+    background: linear-gradient(135deg, hsla(217, 78%, 55%, 0.1) 0%, hsla(258, 68%, 58%, 0.1) 100%);
+  }
+}

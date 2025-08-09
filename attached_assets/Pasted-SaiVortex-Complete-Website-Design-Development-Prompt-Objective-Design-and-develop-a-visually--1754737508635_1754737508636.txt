@@ -1,0 +1,210 @@
+SaiVortex - Complete Website Design & Development Prompt
+Objective:
+Design and develop a visually striking, responsive, multilingual corporate website for SaiVortex, integrating frontend, backend, UI/UX, and compliance features. The site should be modern, user-friendly, mobile-optimized, SEO-ready, and aligned with the brand’s mission and identity.
+
+1️⃣ Company Profile
+Company Name: SaiVortex
+Tagline: Transforming Technology with Integrity and Innovation
+Founded: 2024
+Founder: Saicharan Bhuthkuri
+Email: saivortex.dev@gmail.com
+Phone: +91 6301133456
+
+Mission:
+To be a trusted leader recognized for innovative, ethical, and sustainable technology and creative solutions fostering excellence, growth, and strong client partnerships.
+
+Vision:
+To redefine excellence by continuously innovating, fostering sustainability, and consistently exceeding client expectations while building lasting trust and value.
+
+Core Values:
+
+Quality: High standards in every service
+
+Integrity: Honesty, ethics, transparency
+
+Innovation: Embrace new ideas & tech
+
+People-Centric: Employees are assets
+
+Safety: Protect all stakeholders
+
+Continuous Improvement: Skills & performance growth
+
+Mutual Respect: Trust-based relationships
+
+Why Choose Us?
+
+Proven high-quality track record
+
+Ethical business practices
+
+Innovative, sustainable solutions
+
+Strong safety culture
+
+Employee development focus
+
+Collaborative client engagement
+
+Main Highlight:
+Forward-thinking company delivering transformative, high-quality solutions backed by integrity, innovation, and exceptional service.
+
+2️⃣ Services & Structure
+Main Categories & Subpages (with URLs):
+
+Hardware Solutions (/services/hardware)
+PC/Laptop Repair — /services/hardware/repair
+
+Device Configuration — /services/hardware/configuration
+
+Troubleshooting & Upgrades — /services/hardware/upgrades
+
+Software Solutions (/services/software)
+Installation & Setup — /services/software/installation
+
+Custom Applications — /services/software/custom-apps
+
+Maintenance & Support — /services/software/maintenance
+
+Project Works (/services/project-works)
+Academic Projects — /services/project-works/academic
+
+Professional Projects — /services/project-works/professional
+
+Custom Projects — /services/project-works/custom
+
+Documentation & Presentations — /services/project-works/documentation
+
+Document Services (/services/documents)
+Editing & Formatting — /services/documents/editing
+
+PDF Conversion — /services/documents/conversion
+
+Printing & Scanning — /services/documents/printing
+
+Media Services (/services/media)
+Video Editing — /services/media/video-editing
+
+Photo Editing — /services/media/photo-editing
+
+Logo Creation — /services/media/logo-creation
+
+AV Creation — /services/media/av-creation
+
+Brand & Social Media (/services/brand-social)
+Social Media Setup — /services/brand-social/setup
+
+Content Management — /services/brand-social/content-management
+
+Event Organizing (/services/events)
+Small Events — /services/events/small
+
+Large Events — /services/events/large
+
+Digital Invitations — /services/events/invitations
+
+Student Services (/services/student)
+Assignment Help — /services/student/assignments
+
+Notes & Study Materials — /services/student/notes
+
+Exam Preparation Guides — /services/student/exam-guides
+
+3️⃣ Navigation & UX
+Desktop Navbar: Logo (left) | Home | Services | Portfolio | Student Resources | About | Contact | Optional Login
+Mobile: Bottom Navbar with icons (Home, Services, Chat Button, Profile, Menu) + Burger Menu for full navigation. Logo at top.
+
+Breadcrumb Example:
+Home > Services > Hardware Solutions > PC/Laptop Repair
+
+4️⃣ Page Layouts
+Homepage
+
+Hero banner with logo & tagline
+
+Quick access cards for key services
+
+Contact buttons (including WhatsApp integration)
+
+Highlights, testimonials, portfolio preview
+
+About Page
+
+Mission, Vision, Values
+
+Founder intro with photo
+
+Why choose SaiVortex
+
+Services Pages
+
+Banner per category
+
+Intro paragraph
+
+Subservices grid/cards with small descriptions
+
+CTA: "Request Service"
+
+Breadcrumb navigation
+
+Portfolio Page
+
+Media gallery
+
+Client logos & case studies
+
+Testimonials section
+
+Student Resources Page
+
+Downloadable notes & guides
+
+Request help form
+
+Contact Page
+
+Contact form → backend email handler sending to saivortex.dev@gmail.com using SMTP/EmailJS/NodeMailer
+
+WhatsApp widget
+
+Phone, email, and location
+
+5️⃣ Technical Stack
+Frontend: HTML5, CSS3, JavaScript, React or Angular, TailwindCSS/Bootstrap
+Backend: Node.js with Express OR Django
+Database: Optional (MySQL/MongoDB) for portfolio, resources
+Email Sending: SMTP, Nodemailer, or EmailJS for form automation
+Multilingual Support: i18n for multiple languages
+SEO: Schema.org markup, meta tags, alt text for images
+
+6️⃣ Responsive Design
+Desktop: Fixed top navbar, grid layout, large visuals
+
+Mobile: Icon-based bottom navbar, swipe-friendly cards, floating chat button
+
+Accessibility: WCAG compliance, keyboard navigability
+
+7️⃣ Branding
+Colors: Gradient Blue–Purple–Black (modern tech feel)
+
+Fonts: Poppins or Roboto
+
+Consistent logo use (favicon, headers)
+
+8️⃣ Extra Features
+Real-time chat & WhatsApp button
+
+Secure validated forms
+
+Resource file download manager
+
+High-contrast mode toggle
+
+9️⃣ Privacy Policy Page
+Effective: Aug 9, 2024 — Updated: Aug 9, 2025
+(Includes all given privacy policy text exactly as provided, covering data collection, use, sharing, retention, rights, cookies, children's privacy, changes, and contact details.)
+
+🔟 Terms of Service Page
+Effective: Aug 9, 2024
+(Includes all provided ToS content exactly as given, with sections on eligibility, responsibilities, accounts, payments, AI usage disclaimer, liability, governing law, and contact details.)
