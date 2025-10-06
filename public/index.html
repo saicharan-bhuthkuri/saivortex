@@ -38,7 +38,7 @@
         <div class="hero-content">
             <div class="hero-logo">
                 <div class="logo-circle">
-                    <img src="/asects/Saivortex Logo.jpg" alt="SaiVortex Logo" class="logo-img" />
+                    <img src="/asects/Saivortex_Logo.jpg" alt="SaiVortex Logo" class="logo-img" />
                 </div>
             </div>
             <h1 class="hero-title">Where Imagination Meets Design</h1>
@@ -262,7 +262,7 @@
         <p><a href="mailto:roushansameer10@gmail.com">roushansameer10@gmail.com</a></p>
       </div>
       <div class="team-member">
-        <img src="/asects/TEAM/Sri Charan.png" alt="Bangari Sri Charan" class="team-photo" />
+        <img src="/asects/TEAM/Sri_Charan.png" alt="Bangari Sri Charan" class="team-photo" />
         <h3>Bangari Sri Charan</h3>
         <p><strong>Co-Designer & Thumbnail Designer</strong></p>
         <p><a href="mailto:sricharanbangari07@gmail.com">sricharanbangari07@gmail.com</a></p>
@@ -347,42 +347,6 @@
         </div>
     </footer>
 
-<!-- email -->
- <!-- Add this script before closing </body> tag -->
-<script type="text/javascript" src="https://cdn.emailjs.com/sdk/3.2.0/email.min.js"></script>
-<script type="text/javascript">
-  (function() {
-    // Initialize EmailJS with your public key
-    // Note: Replace 'YOUR_PUBLIC_KEY' with your actual EmailJS public key from your account
-    emailjs.init("DmsiUYPXufdF5KB78");
-  })();
-
-  // Handle form submission
-  document.getElementById('contact-form').addEventListener('submit', function(event) {
-    event.preventDefault(); // Prevent default form submission
-
-    // Collect form data
-    const formData = {
-      name: document.getElementById('name').value,
-      email: document.getElementById('email').value,
-      subject: document.getElementById('subject').value,
-      message: document.getElementById('message').value
-    };
-
-    // Send email via EmailJS
-    emailjs.send('service_zft8hrb', 'template_ebri0j4', formData)
-      .then(function(response) {
-        alert('Message sent successfully!');
-        document.getElementById('contact-form').reset();
-      }, function(error) {
-        alert('Failed to send message. Please try again later.');
-        console.error('EmailJS Error:', error);
-      });
-  });
-</script>
-
- <!-- email -->
-
-    <script src="app.js"></script>
+ <script src="app.js"></script>
 </body>
 </html>
