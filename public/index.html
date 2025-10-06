@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="pMGx529LbVn5DhI5Pscq65_Kfu-i6YiDLyiejKmMgY4" />
+    <title>SaiVortex - Where Imagination Meets Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="nav" id="nav">
+    <div class="nav-container">
+        <div class="nav-brand">
+            <img src="/asects/Logo.jpg" alt="SaiVortex Logo" class="nav-logo" />
+            <span class="brand-text">SaiVortex</span>
+        </div>
+        <div class="nav-menu" id="nav-menu">
+            <a href="#home" class="nav-link">Home</a>
+            <a href="#services" class="nav-link">Services</a>
+            <a href="#portfolio" class="nav-link">Portfolio</a>
+            <a href="#about" class="nav-link">About</a>
+            <a href="#team" class="nav-link">Team</a>
+            <a href="#contact" class="nav-link">Contact</a>
+        </div>
+        <div class="nav-toggle" id="nav-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</nav>
+
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-bg"></div>
+        <div class="hero-content">
+            <div class="hero-logo">
+                <div class="logo-circle">
+                    <img src="/asects/Saivortex_Logo.jpg" alt="SaiVortex Logo" class="logo-img" />
+                </div>
+            </div>
+            <h1 class="hero-title">Where Imagination Meets Design</h1>
+            <p class="hero-subtitle">Specializing in gradient design and professional photo editing since 2025</p>
+            <button class="btn btn--primary btn--lg hero-cta" onclick="scrollToSection('portfolio')">
+                View Portfolio
+            </button>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-arrow"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <p>Professional design solutions that bring your vision to life</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">🎨</div>
+                    <h3>Gradient Design</h3>
+                    <p>Custom gradient creations for brands, websites, and digital applications with modern aesthetics.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">📷</div>
+                    <h3>Photo Editing</h3>
+                    <p>Professional retouching, color correction, and enhancement for all photography needs.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">™️</div>
+                    <h3>Brand Identity</h3>
+                    <p>Complete visual branding solutions incorporating gradients and edited imagery.</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">🖌️</div>
+                    <h3>Digital Design</h3>
+                    <p>Modern digital designs for web, social media, and digital marketing materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Portfolio</h2>
+                <p>Showcasing our best work in gradient design and photo editing</p>
+            </div>
+            
+            <!-- Portfolio Filters -->
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all">All Work</button>
+                <button class="filter-btn" data-filter="branding">Branding</button>
+                <button class="filter-btn" data-filter="gradient">Gradients</button>
+                <button class="filter-btn" data-filter="print">Print</button>
+                <button class="filter-btn" data-filter="digital">Digital</button>
+            </div>
+
+            <!-- Portfolio Grid -->
+            <div class="portfolio-grid">
+
+  <div class="portfolio-item" data-category="branding">
+    <div class="portfolio-image">
+      <img src="/asects/Portfolio/branding1.jpg" alt="SaiVortex Brand Identity" />
+    </div>
+    <div class="portfolio-overlay">
+      <h3>SaiVortex Brand Identity</h3>
+      <p>Complete brand identity system with logo, color palette, and mascot character design.</p>
+      <button class="btn btn--primary btn--sm" onclick="openModal(1)">View Details</button>
+    </div>
+  </div>
+
+  <div class="portfolio-item" data-category="print">
+    <div class="portfolio-image">
+      <img src="/asects/Portfolio/SaiVortex_BrandIdentity.jpg" alt="Business Card Design" />
+    </div>
+    <div class="portfolio-overlay">
+      <h3>Business Card Design</h3>
+      <p>Professional business card design featuring the SaiVortex brand elements.</p>
+      <button class="btn btn--primary btn--sm" onclick="openModal(2)">View Details</button>
+    </div>
+  </div>
+
+  <div class="portfolio-item" data-category="digital">
+    <div class="portfolio-image">
+      <img src="/asects/Portfolio/digital-mockups.jpg" alt="Digital Mockups" />
+    </div>
+    <div class="portfolio-overlay">
+      <h3>Digital Mockups</h3>
+      <p>Real-world application mockups showcasing brand versatility across platforms.</p>
+      <button class="btn btn--primary btn--sm" onclick="openModal(3)">View Details</button>
+    </div>
+  </div>
+
+  <div class="portfolio-item" data-category="gradient">
+    <div class="portfolio-image">
+      <img src="/asects/Portfolio/gradient-palettes.webp" alt="Gradient Color Palettes" />
+    </div>
+    <div class="portfolio-overlay">
+      <h3>Gradient Color Palettes</h3>
+      <p>Custom gradient color systems including purple, green, and blue variations.</p>
+      <button class="btn btn--primary btn--sm" onclick="openModal(4)">View Details</button>
+    </div>
+  </div>
+
+  <div class="portfolio-item" data-category="branding">
+    <div class="portfolio-image">
+      <img src="/asects/Portfolio/typography-system.jpg" alt="Typography System" />
+    </div>
+    <div class="portfolio-overlay">
+      <h3>Typography System</h3>
+      <p>Brand typography with primary and secondary typeface selections.</p>
+      <button class="btn btn--primary btn--sm" onclick="openModal(5)">View Details</button>
+    </div>
+  </div>
+
+</div>
+
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About SaiVortex</h2>
+                    <p class="about-intro">Founded in 2025 by passionate visual artist Saicharan Bhuthkuri, SaiVortex represents the perfect fusion of artistic creativity and professional design solutions.</p>
+                    
+                    <div class="founder-info">
+                        <h3>Meet the Founder</h3>
+                        <h4>Saicharan Bhuthkuri</h4>
+                        <p class="founder-title">Graphics Designer & Founder</p>
+                        <p>Passionate visual artist specializing in gradient design and professional photo editing. Founded SaiVortex in 2025 with a vision to merge artistic creativity with approachable design solutions.</p>
+                    </div>
+
+                    <div class="skills-section">
+                        <h3>Expertise</h3>
+                        <div class="skills-grid">
+                            <div class="skill">
+                                <span class="skill-name">Gradient Design</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="95"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Photo Editing</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="92"></div>
+                                </div>
+                                <span class="skill-percentage">92%</span>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Adobe Photoshop</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="95"></div>
+                                </div>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Adobe Illustrator</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="88"></div>
+                                </div>
+                                <span class="skill-percentage">88%</span>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Brand Identity</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="90"></div>
+                                </div>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill">
+                                <span class="skill-name">Color Theory</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-percentage="93"></div>
+                                </div>
+                                <span class="skill-percentage">93%</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+               <div class="founder-photo">
+                    <div class="photo-placeholder">
+                       <img src="/asects/founder.jpeg" alt="Saicharan Bhuthkuri" class="founder-img" />
+                   </div>
+                 </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TEAM  -->
+     <section id="team" class="team section">
+  <div class="container">
+    <div class="section-header">
+      <h2>Meet the Team</h2>
+      <p>Our dedicated team members driving SaiVortex forward.</p>
+    </div>
+    <div class="team-grid">
+      <div class="team-member">
+        <img src="/asects/TEAM/SAICHARAN.jpeg" alt="Saicharan Bhuthkuri" class="team-photo" />
+        <h3>Saicharan Bhuthkuri</h3>
+        <p><strong>Founder & All-Rounder</strong></p>
+        <p><a href="mailto:saicharanbhuthkuri468@gmail.com">saicharanbhuthkuri468@gmail.com</a></p>
+      </div>
+      <div class="team-member">
+        <img src="/asects/TEAM/geethanjali.jpg" alt="Thungapindi Geethanjali" class="team-photo" />
+        <h3>Thungapindi Geethanjali</h3>
+        <p><strong>Designer & Feedback Lead</strong></p>
+        <p><a href="mailto:geeth407762@gmail.com">geeth407762@gmail.com</a></p>
+      </div>
+      <div class="team-member">
+        <img src="path_to_roushan_photo.jpg" alt="Mohammad Roushan Samiuoddin" class="team-photo" />
+        <h3>Mohammad Roushan Samiuoddin</h3>
+        <p><strong>Marketing Head</strong></p>
+        <p><a href="mailto:roushansameer10@gmail.com">roushansameer10@gmail.com</a></p>
+      </div>
+      <div class="team-member">
+        <img src="/asects/TEAM/Sri_Charan.png" alt="Bangari Sri Charan" class="team-photo" />
+        <h3>Bangari Sri Charan</h3>
+        <p><strong>Co-Designer & Thumbnail Designer</strong></p>
+        <p><a href="mailto:sricharanbangari07@gmail.com">sricharanbangari07@gmail.com</a></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <p>Ready to bring your vision to life? Let's create something amazing together.</p>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <h4>Email</h4>
+                        <a href="mailto:saivortex.dev@gmail.com">saivortex.dev@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Instagram</h4>
+                        <a href="https://instagram.com/saivortex.designs" target="_blank">@saivortex.designs</a>
+                    </div>
+                    <div class="contact-item">
+                        <h4>Behance</h4>
+                        <a href="https://behance.net/saivortex" target="_blank">behance.net/saivortex</a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contact-form">
+                    <div class="form-group">
+                        <label for="name" class="form-label">Name</label>
+                        <input type="text" id="name" name="name" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" id="email" name="email" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="subject" class="form-label">Subject</label>
+                        <input type="text" id="subject" name="subject" class="form-control" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="message" class="form-label">Message</label>
+                        <textarea id="message" name="message" class="form-control" rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="btn btn--primary btn--full-width">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Modal -->
+    <div class="modal hidden" id="portfolio-modal">
+        <div class="modal-overlay" onclick="closeModal()"></div>
+        <div class="modal-content">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div class="modal-body" id="modal-body">
+                <!-- Modal content will be dynamically inserted here -->
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>SaiVortex</h3>
+                    <p>Where Imagination Meets Design</p>
+                </div>
+                <div class="footer-links">
+                    <a href="mailto:saivortex.dev@gmail.com">saivortex.dev@gmail.com</a>
+                    <a href="https://instagram.com/saivortex.designs" target="_blank">Instagram</a>
+                    <a href="https://behance.net/saivortex" target="_blank">Behance</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 SaiVortex. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+ <script src="app.js"></script>
+</body>
+</html>
