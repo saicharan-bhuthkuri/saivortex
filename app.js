@@ -14,7 +14,8 @@ const portfolioData = {
       "Typography system selection",
       "Brand guidelines documentation",
       "Application across various media"
-    ]
+    ],
+    image: "/asects/Portfolio/branding1.jpg"
   },
   2: {
     title: "Business Card Design",
@@ -28,7 +29,8 @@ const portfolioData = {
       "Strategic use of brand colors",
       "Professional contact information layout",
       "Print-ready specifications"
-    ]
+    ],
+    image: "/asects/Portfolio/SaiVortex_BrandIdentity.jpg"
   },
   3: {
     title: "Digital Mockups",
@@ -42,7 +44,8 @@ const portfolioData = {
       "Social media templates",
       "Website interface designs",
       "Brand application examples"
-    ]
+    ],
+    image: "/asects/Portfolio/digital-mockups.jpg"
   },
   4: {
     title: "Gradient Color Palettes",
@@ -56,7 +59,8 @@ const portfolioData = {
       "Accessibility-tested contrast ratios",
       "Digital and print specifications",
       "Usage guidelines and examples"
-    ]
+    ],
+    image: "/asects/Portfolio/gradient-palettes.webp"
   },
   5: {
     title: "Typography System",
@@ -70,7 +74,8 @@ const portfolioData = {
       "Font pairing guidelines",
       "Size and spacing recommendations",
       "Usage examples across mediums"
-    ]
+    ],
+    image: "/asects/Portfolio/typography-system.jpg"
   }
 };
 
